@@ -1,9 +1,7 @@
 <script setup>
-import { ref } from 'vue'
-
-const count = ref(0)
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
-    <button @click="count++">You clicked me {{ count }} times.</button>
+    <HelloWorld />
 </template>
